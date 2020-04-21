@@ -31,3 +31,30 @@
     }
   }
 
+  /*  Resources */
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .resources {
+      flex: 1;
+    }
+
+  /*  Intro  */
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+
+  /*  Footer  */
+  
+    .footer {
+      background: #d9e4ea;
+      padding: 2em 0;
+      text-align: center;
+
+    }
