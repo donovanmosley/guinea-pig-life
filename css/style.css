@@ -64,6 +64,13 @@
   }
   
 
+   /*  Facts  */
+
+   .fact_of_the_day {
+    display: flex;
+    justify-content: space-around;
+   }
+
   /*  Footer  */
   
     .footer {
