@@ -56,6 +56,14 @@
       box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
    }
 
+   .rounded {
+     border-radius: 5%;
+     filter: drop-shadow(0 0 4px #333);
+     margin: 0 auto 2em;
+     padding-left: 1em;
+     padding-right: 1em;
+    }
+
 /*  Navigation  */
 
 /* .name {
@@ -101,10 +109,6 @@
 
   .facts {
     display: flex;
-  }
-
-  .brown_guinea {
-    padding-right: 1em;
   }
 
    .fact_of_the_day {
