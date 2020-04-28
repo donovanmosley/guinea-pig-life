@@ -146,3 +146,17 @@
       text-align: center;
 
     }
+
+  /*  Media Queres  */
+
+    @media (min-width: 769px) {
+
+    /* This is where I enter my 769px media query */
+
+}
+
+@media (min-width: 1025px) {
+
+    /* This is where I enter my 1025px media query */
+
+}
