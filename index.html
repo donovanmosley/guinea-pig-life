@@ -16,9 +16,24 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
-  <body>
+  <body style="padding: 20px">
     <header class="main-header">
       <h1 class="name">Guinea Pig Life</h1>
+      <div class="tabContainer">
+        <div class="buttonContainer">
+          <button onclick="showPanel(0, '#f44336')">Tab 1</button>
+          <button onclick="showPanel(1, '#fcaf50')">Tab 2</button>
+          <button onclick="showPanel(2, '#2196f3')">Tab 3</button>
+          <button onclick="showPanel(3, '#ff5722')">Tab 4</button>  
+        </div>
+        <div class="tabPanel">Tab 1:Content</div>
+        <div class="tabPanel">Tab 1:Content</div>
+        <div class="tabPanel">Tab 1:Content</div>
+        <div class="tabPanel">Tab 1:Content</div>
+      </div>
+      
+      <script src="myScript.js"></script>
+
       <nav class="nav">
         <ul class="main-nav">
           <li class="nav-item"><a href="#home" class="nav__link">Home</a></li>
