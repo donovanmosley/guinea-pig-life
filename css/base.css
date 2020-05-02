@@ -13,8 +13,15 @@ html, body {
 	line-height: 1.55;
 }
 h1 {
-	padding: 40px 0 20px;
+	padding: 10px 0 0px;
 	font: 40px/60px Gabriela, Georgia, serif;
+	text-align: center;
+	text-shadow: 3px 3px rgba(0,0,0,0.1);
+	color: #fff;	
+}
+h2 {
+	padding: 10px 0 10px;
+	font: 30px/60px Gabriela, Georgia, serif;
 	text-align: center;
 	text-shadow: 3px 3px rgba(0,0,0,0.1);
 	color: #fff;	
